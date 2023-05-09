@@ -1,0 +1,1 @@
+const String change_to_offline_mode = "Alterando para o modo de carregamento offline.";

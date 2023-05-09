@@ -1,0 +1,1 @@
+const String unable_to_load_online_data = "Não foi possível carregar as informações online.";
