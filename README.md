@@ -12,11 +12,12 @@ rolagem e paginação
 
 Tecnologias:
    - Linguagem: Flutter & Dart SDK;
-   - Padrões de Projeto: Clean Architecure (Clean Dart), MVVM (Aplicada na camada de apresentação), DTO, Repository, Inversão de Controle (IoC);
+   - Padrões de Projeto: MVVM (Clean Dart com Repository e Datasource), DTO, Repository, Inversão de Controle (IoC);
    - Reatividade: ValueNotifier Nativo do Flutter;
    
 Features:
    - Paginação com Scroll infinito;
+   - Carregamento de dados online e offline
    - Camada de testes unitários;
    - Layout responsivo;
 
@@ -33,10 +34,9 @@ Avisos:
    Na camada de módulos (edusoft_app/lib/modules) em 'dio/interceptor/handlers', existe um interceptador de request que realiza os logs de requests & responses, poderá desabilitá-los caso seu console fique poluído;
 
 ## Detalhes
-Tempo gasto: 6 horas
+Tempo gasto: 4 horas
 Desafios encontrados: 
-   - Resolução do bug de configurações de timeout do dio (https://pub.dev/packages/dio) em execução na Web; 
-   - Tomada de decisão quanto a melhor forma de aplicar a paginação já que a api base não dispõem dos recursos previamente paginados;
+
 
 ## Mais
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
